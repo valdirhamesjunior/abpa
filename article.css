@@ -11,8 +11,11 @@
 .article img {
   max-width: 100%;
   border-radius: 5px;
+  overflow-x: hidden;
   display: block;
   align-self: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .article-historia {
@@ -25,7 +28,7 @@
   font-size: 2.5rem;
 }
 
-.article-historia h4::after {
+/*.article-historia h4::after {
   content: "";
   background: url(/img/patas.png);
   width: 32px;
@@ -33,7 +36,7 @@
   position: absolute;
   right: 250px;
 }
-
+*/
 .article-historia h5 {
   padding-bottom: 5px;
   font-size: 1.75rem;
@@ -91,10 +94,13 @@
   .article-historia h4::after {
     display: none;
   }
-  .article-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+  .article-historia {
+    margin-top: 15px;
+  }
+
+  .article img {
+    display: none;
   }
   .article {
     padding-top: 0px;
