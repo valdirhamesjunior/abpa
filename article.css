@@ -1,0 +1,127 @@
+.article {
+  padding-top: 75px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 75px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article img {
+  max-width: 100%;
+  border-radius: 5px;
+  display: block;
+  align-self: center;
+}
+
+.article-historia {
+  padding-left: 20px;
+  display: block;
+  align-self: center;
+}
+
+.article-historia h4 {
+  font-size: 2.5rem;
+}
+
+.article-historia h4::after {
+  content: "";
+  background: url(/img/patas.png);
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  right: 250px;
+}
+
+.article-historia h5 {
+  padding-bottom: 5px;
+  font-size: 1.75rem;
+}
+
+.article-historia p {
+  padding-top: 10px;
+  font-size: 1.2rem;
+}
+
+.article-acoes {
+  display: flex;
+  gap: 10px;
+  font-size: 1rem;
+}
+
+.article-acoes li {
+  background-color: #344a5f;
+  color: #fff;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+@media (max-width: 1200px) {
+  .article-historia h4 {
+    font-size: 2.3rem;
+  }
+  .article img {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .article-historia h4::after {
+    right: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .article-historia h4 {
+    font-size: 2rem;
+  }
+  .article-historia h4::after {
+    right: 200px;
+  }
+  .article-historia h5 {
+    font-size: 1.75rem;
+  }
+  .article-historia p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 930px) {
+  .article-historia h4::after {
+    display: none;
+  }
+  .article-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .article {
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .article img {
+    padding-top: 25px;
+    max-height: 400px;
+    max-width: auto;
+    padding-left: 0px;
+    justify-self: center;
+    padding-bottom: 20px;
+  }
+  .article-historia h4 {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .article-historia p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .article-acoes {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

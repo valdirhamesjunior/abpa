@@ -1,0 +1,151 @@
+header {
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header-logo img {
+  max-width: 200px;
+}
+
+.header-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  place-self: center;
+}
+
+.header-contato p,
+.header-localizacao p {
+  font-size: 1.5rem;
+  color: #344a5f;
+}
+
+.header-contato h3,
+.header-localizacao h3 {
+  font-size: 1.75rem;
+  color: #344a5f;
+}
+
+.menu-topo {
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 25px;
+}
+
+.ul-menu {
+  display: flex;
+  font-size: 1.5rem;
+  gap: 100px;
+}
+
+.ul-menu li a:hover {
+  border-bottom: 3px solid #f5b700;
+}
+
+.redes-sociais img {
+  max-width: 32px;
+  padding-left: 15px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 100vw;
+  }
+
+  .header {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .header-contato p,
+  .header-localizacao p {
+    font-size: 1.5rem;
+  }
+
+  .header-contato h3,
+  .header-localizacao h3 {
+    font-size: 1.75rem;
+  }
+
+  .menu-topo {
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1000px) {
+  .redes-sociais img {
+    padding-left: 10px;
+    padding-top: 2px;
+    display: inline-block;
+    align-items: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .header-logo img {
+    max-width: 250px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+  }
+}
+
+@media (max-width: 650px) {
+  .header-info {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    place-self: center;
+  }
+  .menu-topo {
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: none;
+    padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .redes-sociais {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .menu-topo {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .ul-menu {
+    gap: 15px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 300px) {
+  .menu-topo {
+    display: none;
+  }
+}

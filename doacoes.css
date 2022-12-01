@@ -1,0 +1,28 @@
+.img img {
+  max-width: 25vw;
+  display: block;
+}
+
+.doacao-separador img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.doacoes {
+  margin-bottom: 15px;
+}
+
+.doacoes h1 {
+  text-align: center;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.doacoes {
+  text-align: center;
+}
+
+.pix {
+  color: #344a5f;
+}
