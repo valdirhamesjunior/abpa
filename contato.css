@@ -63,6 +63,13 @@
 }
 
 @media (max-width: 800px) {
+  .contato h3 {
+    font-size: 2rem;
+  }
+  .contato p {
+    font-size: 1.25rem;
+  }
+
   .contato {
     grid-template-columns: 1fr;
   }

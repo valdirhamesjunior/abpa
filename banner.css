@@ -27,13 +27,13 @@
 }
 
 .banner-informacoes h1 {
-  font-size: 4.5rem;
+  font-size: 3.5rem;
   color: #fff;
   margin-bottom: 25px;
 }
 
 .span-h1 {
-  font-size: 2.5rem;
+  font-size: 3.25rem;
   font-weight: thin;
 }
 
@@ -104,7 +104,7 @@
     font-size: 2.5rem;
   }
   .banner-informacoes a {
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 100%;
     padding: 10px 20px;
   }
@@ -130,13 +130,13 @@
 
 @media (max-width: 500px) {
   .span-h1 {
-    font-size: 1.7rem;
+    font-size: 2rem;
   }
   .banner-informacoes h1 {
     font-size: 2rem;
   }
   .banner-informacoes a {
-    font-size: 1.2rem;
+    font-size: 2rem;
     width: 100%;
     padding: 10px 20px;
   }

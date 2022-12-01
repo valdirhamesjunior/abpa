@@ -90,6 +90,7 @@
   color: #fff;
   padding: 15px 20px;
   font-size: 3rem;
+  text-transform: uppercase;
 }
 
 @media (max-width: 800px) {
@@ -104,5 +105,9 @@
   }
   .h3-contato {
     display: none;
+  }
+  .doacoes a {
+    font-size: 1.75rem;
+    text-align: center;
   }
 }
