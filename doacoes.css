@@ -1,5 +1,5 @@
 .img img {
-  max-width: 25vw;
+  max-width: 50vw;
   display: block;
 }
 
@@ -25,4 +25,11 @@
 
 .pix {
   color: #344a5f;
+}
+
+@media (max-width: 500px) {
+  .img img {
+    max-width: 75vw;
+    display: block;
+  }
 }
