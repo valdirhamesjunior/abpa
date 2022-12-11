@@ -75,9 +75,13 @@
   }
   .whatsapp {
     margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .animais {
     margin-top: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
